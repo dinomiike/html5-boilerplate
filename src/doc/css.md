@@ -77,6 +77,18 @@ See also:
   accessibility](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
 * [HTML5 Boilerplate - Issue #194](https://github.com/h5bp/html5-boilerplate/issues/194).
 
+Disabled Images and Windows High Contrast Mode:
+
+It is recommended to remove the `visuallyhidden` state of the text 
+alternative of images and background images when images are disabled or 
+when Windows High Contrast Mode is enabled. See below for examples on 
+how to detect for these states in JavaScript.
+
+See also:
+
+* [Detecting if images are disabled in 
+  browsers](https://www.paciellogroup.com/blog/2011/10/detecting-if-images-are-disabled-in-browsers/)
+
 #### `.invisible`
 
 The `invisible` class can be added to any element that you want to hide
